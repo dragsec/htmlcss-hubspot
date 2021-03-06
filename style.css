@@ -2,4 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.borderright{
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float:right;
+}
+header{
+    background-color: beige;
+    line-height: 75px;
+}
+.header1{
+    width: 1024px;
+    border: 1px solid;
+    margin: auto;
+}
+.inline-block > *{
+    display: inline-block;
 }

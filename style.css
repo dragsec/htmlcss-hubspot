@@ -3,10 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
 }
 .borderright{
     border-right: 1px solid;
     padding-right: 10px;
+}
+.buttonghost{
+    color: orange;
+    border: 1px solid;
+    border-radius: 10%;
+    padding: 5px;
+}
+.buttonorange{
+    color: beige;
+    border: 1px solid;
+    border-radius: 10%;
+    padding: 5px;
+    border-color: orange;
+    background-color: orange;
 }
 .clearfix{
     content: "";
@@ -25,8 +42,10 @@ header{
 }
 .header1{
     width: 1024px;
-    border: 1px solid;
     margin: auto;
+}
+.textcol{
+    color: black;
 }
 .inline-block > *{
     display: inline-block;

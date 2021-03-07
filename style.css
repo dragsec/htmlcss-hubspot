@@ -50,6 +50,16 @@
 .fontsmall{
     font-size: 13px;
 }
+.fontmedium{
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+.greenbar{
+    background-color: #a6e8e0;
+    height: 75px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
 header{
     background-color: beige;
     line-height: 75px;
@@ -75,18 +85,26 @@ header{
 .home1box > *{
     margin-bottom: 30px;
 }
-.greenbar{
-    background-color: #a6e8e0;
-    height: 75px;
-    border-bottom: 2px solid;
-    border-top: 2px solid;
+.home2{
+    background-color: beige;
+    padding: 50px 0 50px 0;
+}
+.home2logo{
+    height: 200px;
 }
 .logo{
     vertical-align: middle;
 }
+.marginauto > *{
+    margin: auto;
+    text-align: center;
+}
 nav{
     border: 1px solid;
     line-height: 75px;
+}
+.pads{
+    padding: 0 500px 0 500px;
 }
 .spacex > *{
     padding: 0 5px 0 5px;

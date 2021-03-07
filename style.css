@@ -64,9 +64,9 @@
 header{
     background-color: beige;
     line-height: 75px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid
 }
-.header1,nav,.home1box,.home2div{
+.header1,nav,.home1box,.home2div, .home2tri{
     width: 1200px;
     margin: auto;
 }
@@ -79,7 +79,6 @@ header{
     background-color: #fef4ec;
 }
 .home1box{
-    border: 1px solid;
     padding-right: 680px;
     padding-top: 100px;
 }
@@ -98,8 +97,33 @@ header{
     border-radius: 5px;
     margin-top: 50px;
 }
+.home2divpads{
+    padding: 50px 150px 25px 150px;
+}
+.home2div > div > *{
+    margin-bottom: 25px;
+}
+.home2div > div{
+    display: inline-block;
+}
+.home2tri > div{
+    display: inline-block;
+}
 .home2pics{
     height: 100px;
+}
+.home2tri > div {
+    width: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.home2tri > div:nth-child(2){
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.home2tri > p:nth-child(4){
+    text-align: left;
 }
 .logo{
     vertical-align: middle;
@@ -109,7 +133,6 @@ header{
     text-align: center;
 }
 nav{
-    border: 1px solid;
     line-height: 75px;
 }
 .pads{
@@ -118,9 +141,26 @@ nav{
 .spacex > *{
     padding: 0 5px 0 5px;
 }
+.spunte{
+    color: beige;
+    border-radius: 50%;
+    border-color: orange;
+    background-color: orange;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 .textcol{
     color: black;
 }
 .inline-block > *{
     display: inline-block;
+}
+.widthx{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
 }

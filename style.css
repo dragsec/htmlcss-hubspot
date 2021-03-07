@@ -15,17 +15,22 @@
 .buttonghost{
     color: orange;
     border: 1px solid;
-    border-radius: 10%;
+    border-radius: 8px;
     padding: 5px;
     margin: 0 10px 0 10px;
 }
 .buttonorange{
     color: beige;
     border: 1px solid;
-    border-radius: 10%;
+    border-radius: 8px;
     padding: 5px;
     border-color: orange;
     background-color: orange;
+}
+.buttonorangebig{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
 }
 .clearfix{
     content: "";
@@ -38,6 +43,13 @@
 .floatright{
     float:right;
 }
+.fontbig{
+    font-size: 50px;
+    font-weight: bold;
+}
+.fontsmall{
+    font-size: 13px;
+}
 header{
     background-color: beige;
     line-height: 75px;
@@ -49,14 +61,25 @@ header{
 }
 .home1{
     height: 600px;
-    border: 1px solid;
     background-image: url(img/jumbotron.png);
-    background-position: right -87px;
+    background-position: 350px -85px;
     background-repeat: no-repeat;
     background-size: 1600px;
+    background-color: #fef4ec;
 }
 .home1box{
-
+    border: 1px solid;
+    padding-right: 680px;
+    padding-top: 100px;
+}
+.home1box > *{
+    margin-bottom: 30px;
+}
+.greenbar{
+    background-color: #a6e8e0;
+    height: 75px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
 }
 .logo{
     vertical-align: middle;

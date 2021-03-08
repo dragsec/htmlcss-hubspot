@@ -149,6 +149,12 @@ header{
     display: inline-block;
     width: 300px;
     border-color: white;
+    float: left;
+}
+.home3table::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 .logo{
     vertical-align: middle;

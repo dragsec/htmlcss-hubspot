@@ -157,7 +157,7 @@ header{
     clear: both;
 }
 .home4{
-    background-color: beige;
+    background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -167,7 +167,9 @@ header{
 .home4partners2 > div{
     display: inline-block;
     width: 150px;
-    height: 75px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
 }
 .home4partners2 > div > img{
     max-width: 100%;
@@ -175,8 +177,7 @@ header{
 }
 .home4partners2{
     width: 700px;
-    height: 100px;
-    background-color: pink;
+    transform: translate(100px, -50px);
 }
 .home4box{
     height: 200px;

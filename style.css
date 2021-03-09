@@ -265,4 +265,51 @@ nav{
 /* footer */
 footer{
     background-color: rgb(54, 68, 114);
+    color: lightgray;
+    padding: 50px 0;
 }
+.footerfloats > div { 
+    width: 300px;
+    margin-bottom: 50px;
+}
+div > ul {
+    list-style: none;
+}
+.footerfloats > div > ul > li {
+    margin-top: 10px;
+}
+.footerfloats > div > ul > li:first-of-type {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+.footercontainer > div > ul{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.footercontainer > div > ul > li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+.footercontainer > div {
+    margin-bottom: 20px;
+}
+.footerfloats::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.buttonfooter{
+    color: rgb(54, 68, 114);
+    border-radius: 8px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+}
+.copyright{
+    color: white;
+}
+.xyz{
+    margin: 0 10px;
+}
+

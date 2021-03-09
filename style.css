@@ -6,7 +6,7 @@
     font-weight: 600;
     text-decoration: none;
 }
-.header1,nav,.home1box,.home2div, .home4 > div, .home4get, .home2tri, .home3container{
+.header1,.footercontainer,nav,.home1box,.home2div, .home4 > div, .home4get, .home2tri, .home3container{
     width: 1200px;
     margin: auto;
 }
@@ -165,6 +165,9 @@ header{
     display: table;
     clear: both;
 }
+.home3container > .home3table:first-of-type{
+    margin-top: 60px;
+}
 .home4{
     background-color: white;
     padding-top: 25px;
@@ -247,7 +250,6 @@ nav{
     margin-top: 20px;
 }
 
-
 /* bordi tabella */
 .border1{
     border-bottom: 1px solid;
@@ -258,4 +260,9 @@ nav{
 }
 .border5{
     border-right: 1px solid;
+}
+
+/* footer */
+footer{
+    background-color: rgb(54, 68, 114);
 }
